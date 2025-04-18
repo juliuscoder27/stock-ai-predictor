@@ -14,3 +14,10 @@ __pycache__/
 .DS_Store
 .vscode/
 __pycache__/
+
+# Cache and lock files
+*.lock
+*.sqlite
+
+# Jupyter checkpoints
+notebooks/.ipynb_checkpoints/
