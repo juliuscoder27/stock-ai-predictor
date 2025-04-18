@@ -1,0 +1,28 @@
+name: stockai
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.10
+  - numpy=1.23.5
+  - pandas>=2.0
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - ipykernel          # enable the env for Jupyter kernels
+  - pytorch
+  - torchvision
+  - torchaudio
+  - yfinance
+  - ta-lib
+  - vectorbt
+  - optuna
+  - mlflow
+  - fsspec
+  - sympy=1.13.1
+  - pip
+  - pip:
+      - beautifulsoup4   # pulled via yfinance
+      - schedule
+      - dill
