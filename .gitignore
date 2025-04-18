@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Data & outputs
+/data/*.csv
+/experiments/
+.DS_Store
+.vscode/
+__pycache__/
