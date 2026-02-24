@@ -11,9 +11,6 @@ __pycache__/
 # Data & outputs
 /data/*.csv
 /experiments/
-.DS_Store
-.vscode/
-__pycache__/
 
 # Cache and lock files
 *.lock
